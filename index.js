@@ -1,6 +1,6 @@
 const express = require('express')
 const dotenv = require('dotenv')
-dotenv.config({path: "./config/dev.env"})
+dotenv.config({path: './config/dev.env'})
 
 const connectDB = require('./db/mongoose')
 const shortURL = require('./src/models/shortURL')
